@@ -3,7 +3,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>Thunderduck</RootNamespace>
     <PackageId>Thunderduck.Data</PackageId>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Authors>thunderduck</Authors>
     <Description>ADO.NET provider and async client for thunderduck (Dapper-compatible).</Description>
     <PackageTags>thunderduck;ado.net;duckdb;lakehouse;dapper</PackageTags>
