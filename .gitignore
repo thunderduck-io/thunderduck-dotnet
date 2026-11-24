@@ -1,0 +1,9 @@
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.user
+*.suo
+.vs/
+TestResults/
+*.nupkg
+.DS_Store
