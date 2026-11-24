@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Thunderduck</RootNamespace>
+    <PackageId>Thunderduck.Data</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>thunderduck</Authors>
+    <Description>ADO.NET provider and async client for thunderduck (Dapper-compatible).</Description>
+    <PackageTags>thunderduck;ado.net;duckdb;lakehouse;dapper</PackageTags>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://docs.thunderduck.ai/clients/dotnet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/thunderduck-io/thunderduck-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+    <None Include="../../LICENSE" Pack="true" PackagePath="/" />
+    <InternalsVisibleTo Include="Thunderduck.Data.Tests" />
+  </ItemGroup>
+</Project>
